@@ -1,7 +1,9 @@
 "use client"
 
-import { useTheme } from "@/components/providers/ThemeProvider";
 import { useEffect, useState } from "react";
+import { Moon, Sun } from "lucide-react";
+
+import { useTheme } from "@/components/providers/ThemeProvider";
 
 const links = [
   { href: "#about", label: "About" },
@@ -52,17 +54,13 @@ export function Nav() {
         <button
           onClick={toggle}
           aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
-          className="relative size-9 rounded-full border border-hairline flex items-center justify-center hover:border-ink transition-colors"
+          className="flex h-9 w-9 items-center justify-center rounded-full border border-hairline hover:border-ink transition-colors cursor-pointer"
         >
-          <span
-            className="block size-2.5 rounded-full bg-ink transition-all duration-500"
-            style={{
-              boxShadow:
-                theme === "dark"
-                  ? "inset -3px -1px 0 0 var(--color-background)"
-                  : "none",
-            }}
-          />
+          {theme === "dark" ? (
+            <Sun className="h-4 w-4" />
+          ) : (
+            <Moon className="h-4 w-4" />
+          )}
         </button>
       </div>
     </nav>
