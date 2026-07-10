@@ -3,37 +3,47 @@ import SectionHead from "@/components/common/SectionHead";
 
 const journey: Array<{ years: string; role: string; place: string; note?: string }> = [
   {
-    years: "2019 — Present",
-    role: "Head, Department of Obstetrics & Gynaecology",
-    place: "Cornelian Institute of Women's Health, Kathmandu",
-    note: "Founded the Maternal-Fetal Medicine unit and the Placental Wellness clinic.",
+    years: "2026 - Present",
+    role: "Lecturer, Department of Obstetrics & Gynaecology",
+    place: "Patan Hospital, Kathmandu",
   },
   {
-    years: "2014 — 2019",
-    role: "Consultant Obstetrician-Gynecologist",
-    place: "Sir J.J. Hospital & Grant Medical College",
+    years: "Nov 2025 - Apr 2026",
+    role: "OB-GYN Consultant",
+    place: "Mantra Hospital, Kathmandu, Nepal",
     note: "Led high-risk pregnancy service; established simulation-based residency curriculum.",
   },
   {
-    years: "2012 — 2014",
-    role: "Visiting Fellow, Fetal Medicine",
-    place: "King's College Hospital, London",
+    years: "May 2025 - Nov 2025",
+    role: "OB-GYN Consultant",
+    place: "Gokarna City Hospital, Kathmandu, Nepal",
   },
   {
-    years: "2009 — 2012",
-    role: "Fellowship, Minimally Invasive Gynecologic Surgery",
-    place: "AIIMS, New Delhi",
+    years: "2022 - 2025",
+    role: "MD/MS, Obstetrics & Gynaecology",
+    place: "Manipal College of Medical Sciences, Pokhara, Nepal",
   },
   {
-    years: "2005 — 2008",
-    role: "Residency, Obstetrics & Gynaecology (MS, DGO)",
-    place: "Seth G.S. Medical College, Kathmandu",
+    years: "2021 - 2022",
+    role: "Medical Officer",
+    place: "Mahendra Narayan Nidhi Hospital, Kathmandu, Nepal",
   },
   {
-    years: "1999 — 2004",
+    years: "2019 - 2021",
+    role: "Medical Officer",
+    place: "Om Hospital, Kathmandu, Nepal",
+  },
+  {
+    years: "2018 - 2019",
+    role: "Medical Officer",
+    place: "Manmohan Community Hospital, Kathmandu, Nepal"
+  },
+  {
+    years: "2013 - 2018",
     role: "MBBS",
-    place: "Armed Forces Medical College, Pune",
-  },
+    place: "Guangzhou Medical University, Guangzhou, China",
+    note: "(incl. rotary internship, 3rd Affiliated Hospital, 2017 - 2018)"
+  }
 ];
 
 export function Journey() {
@@ -42,8 +52,8 @@ export function Journey() {
       <SectionHead
         index="II."
         label="Chronicle"
-        title="Twenty-three years, in order."
-        lede="A vertical hairline, six anchor moments, and the institutions that shaped the practice."
+        title="Eight years, in order."
+        lede="A vertical timeline, seven anchor moments, and the institutions that shaped the practice so far."
       />
       <div className="col-span-12 lg:col-span-7 lg:col-start-6 relative">
         <div className="absolute left-0 top-2 bottom-2 w-px bg-hairline" aria-hidden />

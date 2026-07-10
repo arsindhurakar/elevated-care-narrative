@@ -6,12 +6,12 @@ import speaking from "@/assets/speaking.jpg";
 
 
 const talks = [
-  { year: "2024", title: "Keynote — Rethinking the third trimester", venue: "FIGO World Congress, Paris" },
-  { year: "2024", title: "Panel — Ethics of prenatal genomics", venue: "RCOG World Congress, London" },
-  { year: "2023", title: "Guest lecture — Placental biology as public health", venue: "Karolinska Institutet, Stockholm" },
-  { year: "2023", title: "CME series — Respectful maternity care", venue: "AIIMS, New Delhi (six sessions)" },
-  { year: "2022", title: "Keynote — Twenty years of MIS in India", venue: "AICOG National Congress, Hyderabad" },
-  { year: "2021", title: "Workshop — Simulation-based obstetric training", venue: "WHO SEARO, Bangkok" },
+  { year: "2024", title: "Keynote - Rethinking the third trimester", venue: "FIGO World Congress, Paris" },
+  { year: "2024", title: "Panel - Ethics of prenatal genomics", venue: "RCOG World Congress, London" },
+  { year: "2023", title: "Guest lecture - Placental biology as public health", venue: "Karolinska Institutet, Stockholm" },
+  { year: "2023", title: "CME series - Respectful maternity care", venue: "AIIMS, New Delhi (six sessions)" },
+  { year: "2022", title: "Keynote - Twenty years of MIS in India", venue: "AICOG National Congress, Hyderabad" },
+  { year: "2021", title: "Workshop - Simulation-based obstetric training", venue: "WHO SEARO, Bangkok" },
 ];
 
 export function Speaking() {
@@ -36,7 +36,7 @@ export function Speaking() {
                 className="size-full object-cover"
                 />
             </div>
-            <p className="eyebrow mt-3">FIGO World Congress, Paris — 2024</p>
+            <p className="eyebrow mt-3">FIGO World Congress, Paris - 2024</p>
           </div>
           <div className="col-span-12 md:col-span-5 md:pt-16">
             <p className="font-display italic text-2xl leading-snug text-graphite">

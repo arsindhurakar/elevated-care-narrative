@@ -4,20 +4,19 @@ export function Philosophy() {
   return (
     <Section id="philosophy">
       <div className="col-span-12 lg:col-span-10 lg:col-start-2">
-        <p className="eyebrow text-sage">IX. On patient care</p>
+        <p className="eyebrow text-sage">VI. On patient care</p>
         <blockquote className="font-display italic text-3xl md:text-5xl lg:text-6xl leading-[1.12] mt-8 text-balance">
-          &ldquo;A good consultation is one in which the woman leaves knowing more
-          about her body than when she came in — and one in which I leave knowing
-          more about her than her chart could have told me.&rdquo;
+          &ldquo;A good consultation is one where a woman leaves feeling more informed than when she arrived,
+          and where I leave having learned something new about her, not just her chart.&rdquo;
         </blockquote>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
           {[
             {
               t: "Shared decision-making",
-              b: "Every plan is drafted twice — once in clinical language, once in hers. We proceed when both read the same.",
+              b: "Every plan is drafted twice - once in clinical language, once in hers. We proceed when both read the same.",
             },
             {
-              t: "Evidence, not habit",
+              t: "Updated, not entrenched",
               b: "Guidelines change. I would rather be recently right than famously consistent.",
             },
             {

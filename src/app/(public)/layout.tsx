@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
   title: "Dr. Sony Sherpa - Obstetrician & Gynecologist",
   description:
-    "Personal portfolio of Dr. Sony Sherpa, MD FRCOG — consultant obstetrician and gynecologist.",
+    "Personal portfolio of Dr. Sony Sherpa, MD/MS - consultant obstetrician and gynecologist.",
 
   openGraph: {
     title: "Dr. Sony Sherpa - Obstetrician & Gynecologist",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dr. Sony Sherpa - Obstetrician & Gynecologist",
     description:
-      "Personal portfolio of Dr. Sony Sherpa, MD FRCOG — consultant obstetrician and gynecologist.",
+      "Personal portfolio of Dr. Sony Sherpa, MD/MS - consultant obstetrician and gynecologist.",
     images: ["/og-image.png"],
   },
 };

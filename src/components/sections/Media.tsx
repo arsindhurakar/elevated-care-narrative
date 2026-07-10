@@ -3,10 +3,10 @@ import SectionHead from "@/components/common/SectionHead";
 
 const media = [
   { outlet: "The Hindu", title: "The cost of a rushed delivery", kind: "Op-Ed", year: "2024" },
-  { outlet: "BBC World Service", title: "Interview — maternal mortality in South Asia", kind: "Radio", year: "2023" },
+  { outlet: "BBC World Service", title: "Interview - maternal mortality in South Asia", kind: "Radio", year: "2023" },
   { outlet: "Vogue India", title: "In conversation with Dr. Sony Sherpa", kind: "Feature", year: "2023" },
-  { outlet: "The Lancet Voice", title: "Podcast — respectful maternity care", kind: "Podcast", year: "2022" },
-  { outlet: "NDTV 24x7", title: "Panel — India's cervical cancer program", kind: "Television", year: "2022" },
+  { outlet: "The Lancet Voice", title: "Podcast - respectful maternity care", kind: "Podcast", year: "2022" },
+  { outlet: "NDTV 24x7", title: "Panel - India's cervical cancer program", kind: "Television", year: "2022" },
   { outlet: "Mint Lounge", title: "The long consultation", kind: "Essay", year: "2021" },
 ];
 

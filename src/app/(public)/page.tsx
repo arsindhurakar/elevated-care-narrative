@@ -22,10 +22,10 @@ export default function LandingPage() {
             <Journey />
             <Expertise />
             <Research />
-            <Speaking />
+            {/* <Speaking /> */}
             <Awards />
-            <Teaching />
-            <Media />
+            {/* <Teaching /> */}
+            {/* <Media /> */}
             <Philosophy />
             <Memberships />
             <Contact />

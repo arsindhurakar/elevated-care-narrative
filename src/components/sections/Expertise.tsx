@@ -4,39 +4,39 @@ import SectionHead from "@/components/common/SectionHead";
 const expertise = [
   {
     n: "01",
-    title: "High-Risk Pregnancy",
+    title: "General Obstetric Care",
     body:
-      "For the small fraction of pregnancies that carry disproportionate weight — early-onset preeclampsia, placenta accreta, twin-to-twin transfusion — I run a multidisciplinary service anchored in shared, unhurried decisions.",
+      "Antenatal, intrapartum, and postpartum care across a full-service maternity practice."
   },
   {
     n: "02",
-    title: "Minimally Invasive Surgery",
+    title: "High-Risk Pregnancy Monitoring",
     body:
-      "Laparoscopic and hysteroscopic technique, developed under fellowship at AIIMS, focused on organ preservation, faster recovery, and, above all, the option of a next pregnancy.",
+      "Close surveillance for metabolic and placental complications, including hypertriglyceridemia-associated pancreatitis in pregnancy."
   },
   {
     n: "03",
-    title: "Fertility & Reproductive Medicine",
+    title: "PROM Management",
     body:
-      "Evaluation and counselling for unexplained infertility, PCOS, endometriosis, and fertility preservation — always with the couple, never at them.",
+      "Assessment and management of premature rupture of membranes at term, informed by original thesis research."
   },
   {
     n: "04",
-    title: "Adolescent & Menopausal Gynecology",
+    title: "General Gynecology",
     body:
-      "Bookends of a life. Two chapters that deserve as much attention, plain language, and time as the years in between.",
+      "Routine gynecological care, minor procedures, and outpatient management.",
   },
   {
     n: "05",
     title: "Preventive Women's Health",
     body:
-      "Cervical screening, vaccination, bone and cardiovascular health — the quiet, unglamorous work that prevents most of what I later treat.",
+      "Screening, vaccination, and wellness visits across the reproductive lifespan."
   },
   {
     n: "06",
     title: "Prenatal Counselling",
     body:
-      "For families who arrive with a difficult diagnosis, an unhurried conversation, an honest map of what is known, and a plan that belongs to them.",
+      "Antenatal education and family counselling through pregnancy."
   },
 ];
 

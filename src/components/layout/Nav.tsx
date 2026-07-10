@@ -10,7 +10,6 @@ const links = [
   { href: "#journey", label: "Journey" },
   { href: "#expertise", label: "Expertise" },
   { href: "#research", label: "Research" },
-  { href: "#speaking", label: "Speaking" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -38,7 +37,7 @@ export function Nav() {
           <span className="font-display text-xl md:text-2xl leading-none truncate">
             Dr. Sony Sherpa
           </span>
-          <span className="hidden sm:inline eyebrow shrink-0">MD · FRCOG</span>
+          <span className="hidden sm:inline eyebrow shrink-0">MD/MS</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (

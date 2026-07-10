@@ -20,30 +20,31 @@ export function About() {
             <span className="float-left font-display text-6xl leading-[0.8] mr-3 mt-1 text-ink">
               I
             </span>
-            came to obstetrics in my second year of medical school, in a district
-            hospital in Pune, holding the hand of a woman I had never met while she
-            delivered her first child. Nothing before or since has felt as ordinary
-            or as sacred.
+            began my medical training far from home, completing my MBBS at Guangzhou Medical University, 
+            including a year-long rotary internship at its Third Affiliated Hospital. 
+            Those years abroad taught me as much about adapting to unfamiliar systems of care as they did 
+            about medicine itself.
           </p>
           <p>
-            My practice today rests on three quiet convictions: that women are the
-            most reliable authors of their own care; that evidence is a form of
-            respect; and that a good outcome is not only a healthy body, but a woman
-            who feels she was heard.
+            Returning to Nepal, I worked as a Medical Officer across several hospitals in and around 
+            Kathmandu - Manmohan Community Hospital, Om Hospital, and Mahendra Narayan Nidhi Hospital - before 
+            pursuing my MD/MS in Obstetrics and Gynaecology at Manipal College of Medical Sciences. 
+            I now practice as a consultant obstetrician and gynecologist, most recently at Mantra Hospital, 
+            following an earlier consultancy at Gokarna City Hospital.
           </p>
           <p>
-            I split my time between clinical work at a tertiary referral center,
-            translational research on placental biology, and teaching residents who
-            will, in turn, teach the next generation. The rest — writing, speaking,
-            advising ministries — is service to the same idea.
+            My clinical interests were shaped by real patients: a case of acute pancreatitis secondary to 
+            hypertriglyceridemia in pregnancy taught me to look past the obvious diagnosis, and my thesis on risk 
+            factors for premature rupture of membranes in term pregnancies grew out of questions I couldn't answer at the bedside. 
+            Both still guide how closely I watch for the complication that doesn't announce itself.
           </p>
         </div>
 
         <ul className="mt-16 grid grid-cols-2 gap-x-8 gap-y-6">
           {[
-            ["Shared decision-making", "Nothing about her without her."],
-            ["Evidence over tradition", "Guidelines updated, not inherited."],
-            ["Long relationships", "Care that outlasts a single visit."],
+            ["Attentive care", "Listening first, treating second."],
+            ["Evidence over habit", "Learning applied at the bedside, not just the textbook."],
+            ["Continuous learning", "Every case is also a lesson."],
             ["Respectful maternity", "Dignity as a clinical outcome."],
           ].map(([t, d]) => (
             <li key={t} className="border-t border-hairline pt-4">

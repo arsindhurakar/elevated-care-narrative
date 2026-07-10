@@ -2,52 +2,18 @@ import Section from "@/components/common/Section";
 
 const publications = [
   {
+    year: "2025",
+    title:
+      "Identification of Risk Factors of PROM in Term Pregnancies, Manipal College of Medical Sciences",
+    doi: "10.1016/S2214-109X(24)00218-4",
+    type: "Thesis",
+  },
+  {
     year: "2024",
     title:
-      "Longitudinal placental perfusion indices and the prediction of late-onset preeclampsia: a multicentre cohort.",
-    journal: "The Lancet Global Health",
-    doi: "10.1016/S2214-109X(24)00218-4",
-    type: "Original research",
-  },
-  {
-    year: "2023",
-    title:
-      "Robotic-assisted transabdominal cerclage in recurrent second-trimester loss: five-year outcomes.",
-    journal: "American Journal of Obstetrics & Gynecology",
+      "Acute Pancreatitis Secondary to Hypertriglyceridemia in Pregnancy",
     doi: "10.1016/j.ajog.2023.05.011",
-    type: "Original research",
-  },
-  {
-    year: "2022",
-    title:
-      "Respectful maternity care in urban India: a policy framework for tertiary centers.",
-    journal: "BMJ Global Health",
-    doi: "10.1136/bmjgh-2022-009132",
-    type: "Policy",
-  },
-  {
-    year: "2022",
-    title:
-      "Fertility preservation in adolescent oncology: consensus guidelines from the FIGO working group.",
-    journal: "International Journal of Gynecology & Obstetrics",
-    doi: "10.1002/ijgo.14210",
-    type: "Guideline",
-  },
-  {
-    year: "2021",
-    title:
-      "Shared decision-making at the threshold of viability: an ethical framework.",
-    journal: "Journal of Medical Ethics",
-    doi: "10.1136/medethics-2021-107455",
-    type: "Editorial",
-  },
-  {
-    year: "2020",
-    title:
-      "Laparoscopic management of deep infiltrating endometriosis: a decade of the Kathmandu cohort.",
-    journal: "Human Reproduction",
-    doi: "10.1093/humrep/deaa189",
-    type: "Original research",
+    type: "Case Report",
   },
 ];
 
@@ -64,17 +30,15 @@ export function Research() {
 
           </div>
           <h2 className="font-display text-4xl md:text-5xl leading-[1.02] mt-6 text-background">
-            140 papers.
+            2 papers,
             <br />
-            Six worth reading first.
+            more to come.
           </h2>
-          <p className="mt-6 text-background/60 max-w-sm leading-relaxed">
+          {/* <p className="mt-6 text-background/60 max-w-sm leading-relaxed">
             A full bibliography is available on ORCID and Google Scholar. Below,
             the work I most often return to.
-          </p>
+          </p> */}
           <div className="mt-8 flex gap-4">
-            <a href="#" className="eyebrow text-background hover:text-sage transition-colors">ORCID ↗</a>
-            <a href="#" className="eyebrow text-background hover:text-sage transition-colors">Scholar ↗</a>
             <a href="#" className="eyebrow text-background hover:text-sage transition-colors">Full CV ↓</a>
           </div>
         </div>
@@ -92,16 +56,15 @@ export function Research() {
                   <h3 className="font-display text-xl md:text-2xl leading-snug text-background group-hover:text-sage transition-colors">
                     {p.title}
                   </h3>
-                  <p className="mt-2 text-background/60 italic">{p.journal}</p>
                 </div>
-                <div className="col-span-12 md:col-span-3 md:text-right">
+                {/* <div className="col-span-12 md:col-span-3 md:text-right">
                   <a
                     href={`https://doi.org/${p.doi}`}
                     className="inline-block eyebrow border border-background/20 rounded-full px-3 py-1.5 text-background/70 hover:text-sage hover:border-sage transition-colors"
                   >
                     doi ↗
                   </a>
-                </div>
+                </div> */}
               </div>
             </li>
           ))}

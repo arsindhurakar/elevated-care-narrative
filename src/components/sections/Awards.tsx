@@ -2,20 +2,19 @@ import Section from "@/components/common/Section";
 import SectionHead from "@/components/common/SectionHead";
 
 const awards = [
-  { year: "2024", title: "President's Medal for Excellence in Women's Health", body: "Federation of Obstetric & Gynaecological Societies of India" },
-  { year: "2022", title: "Chatterjee Lifetime Contribution Award", body: "Indian Council of Medical Research" },
-  { year: "2020", title: "RCOG International Fellowship", body: "Royal College of Obstetricians & Gynaecologists, London" },
-  { year: "2018", title: "Best Teacher — Postgraduate Medicine", body: "Maharashtra University of Health Sciences" },
+  { year: "20--", title: "Guangdong Outstanding International Student Scholarship", body: "Guangzhou Medical University" },
+  { year: "20--", title: "National School of Sciences Merit Scholarship", body: "National School of Sciences" },
+  { year: "20--", title: "HIMS Merit Scholarship", body: "" },
 ];
 
 export function Awards() {
   return (
     <Section id="awards" bg="surface">
       <SectionHead
-        index="VI."
+        index="V."
         label="Recognitions"
         title="Kept in a low drawer."
-        lede="Recorded here for the record; measured against the students, papers, and patients they represent."
+        lede="Recorded here for the record; the work itself was never about the recognition."
       />
       <div className="col-span-12 lg:col-span-7 lg:col-start-6">
         <ol className="grid grid-cols-1 md:grid-cols-2 gap-px bg-hairline border border-hairline">

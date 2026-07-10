@@ -17,7 +17,7 @@ export function Teaching() {
         <div className="aspect-[4/5] overflow-hidden bg-surface">
           <Image
             src={hands}
-            alt="Detail — hands and stethoscope"
+            alt="Detail - hands and stethoscope"
             width={1200}
             height={1500}
             loading="lazy"
@@ -44,10 +44,10 @@ export function Teaching() {
           </p>
           <ul className="space-y-3">
             {[
-              "Adjunct Professor — Grant Medical College",
-              "Examiner — MRCOG Part 3, RCOG London",
-              "Curriculum Chair — MUHS OB-GYN residency",
-              "Founding faculty — South Asia MFM Fellowship",
+              "Adjunct Professor - Grant Medical College",
+              "Examiner - MRCOG Part 3, RCOG London",
+              "Curriculum Chair - MUHS OB-GYN residency",
+              "Founding faculty - South Asia MFM Fellowship",
             ].map((l) => (
               <li key={l} className="pl-4 border-l-2 border-sage/40 text-ink">
                 {l}

@@ -1,10 +1,8 @@
 export function Contact() {
   const links = [
-    ["Email", "office@dr-sonysherpa.md", "mailto:office@dr-sonysherpa.md"],
-    ["LinkedIn", "in/sony-sherpa-md", "#"],
-    ["ORCID", "0000-0002-4519-8827", "#"],
-    ["Google Scholar", "sony.sherpa.md", "#"],
-    ["ResearchGate", "sony-sherpa-12", "#"],
+    ["Email", "sony.sherpa55@hotmail.com", "mailto:sony.sherpa55@hotmail.com"],
+    ["LinkedIn", "in/sony-sherpa-54733b295", "#"],
+    ["Phone", "+977 981 3783132"],
   ];
   return (
     <section
@@ -13,7 +11,7 @@ export function Contact() {
     >
       <div className="mx-auto max-w-[1400px] px-6 md:px-10 grid grid-cols-12 gap-6 md:gap-10">
         <div className="col-span-12 lg:col-span-7">
-          <p className="eyebrow text-sage">XI. Contact</p>
+          <p className="eyebrow text-sage">VIII. Contact</p>
           <h2 className="font-display text-5xl md:text-7xl lg:text-8xl leading-[0.98] mt-8 text-balance text-background">
             For academic
             <br />
@@ -23,22 +21,18 @@ export function Contact() {
             <br />
             second opinion.
           </h2>
-          <a
-            href="mailto:office@dr-sonysherpa.md"
-            className="inline-block mt-12 font-display text-2xl md:text-3xl border-b border-background/30 hover:border-sage hover:text-sage pb-1 transition-colors"
-          >
-            office@dr-sonysherpa.md
-          </a>
         </div>
         <div className="col-span-12 lg:col-span-4 lg:col-start-9 flex flex-col justify-between gap-16">
           <div>
             <p className="eyebrow text-background/60 mb-4">Office</p>
             <p className="font-display text-xl leading-snug text-background">
-              Cornelian Institute of Women's Health
+              Patan Hospital
               <br />
-              Boudha Road, Kathmandu 400 026
+              Lagankhel, Lalitpur 44700
               <br />
-              India
+              P.O. Box: 252, Kathmandu
+              <br />
+              Nepal
             </p>
           </div>
           <ul className="space-y-3">
