@@ -4,7 +4,7 @@ import SectionHead from "@/components/common/SectionHead";
 const awards = [
   { year: "2013", title: "Guangdong Outstanding International Student Scholarship", body: "Guangzhou Medical University" },
   { year: "2010", title: "National School of Sciences Merit Scholarship", body: "National School of Sciences" },
-  { year: "2008", title: "HIMS Merit Scholarship", body: "" },
+  { year: "2008", title: "HIMS Merit Scholarship", body: "Himalaya International Model School" },
 ];
 
 export function Awards() {
