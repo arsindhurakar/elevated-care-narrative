@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-
 /* -----------------------------
    DESIGN TOKENS (CSS VARIABLES ONLY)
 ------------------------------ */
@@ -50,6 +49,43 @@
 }
 
 /* -----------------------------
+   TAILWIND THEME TOKENS
+------------------------------ */
+
+@theme inline {
+  /* Fonts */
+  --font-serif: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Karla Variable", "Karla", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
+
+  /* Colors */
+  --color-bone: var(--bone);
+  --color-surface: var(--surface);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-ink: var(--ink);
+  --color-graphite: var(--graphite);
+  --color-muted-ink: var(--muted-ink);
+
+  --color-sage: var(--sage);
+  --color-sage-soft: var(--sage-soft);
+
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  /* Alias so bg-hairline works */
+  --color-hairline: var(--border);
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* -----------------------------
    BASE STYLES
 ------------------------------ */
 
@@ -64,7 +100,9 @@
     font-family: var(--font-sans, system-ui, sans-serif);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    transition: background-color 300ms ease, color 300ms ease;
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
   }
 
   * {
@@ -157,18 +195,4 @@
 
 .fade {
   animation: fade-in 900ms ease-out both;
-}
-
-@layer utilities {
-  .text-sage {
-    color: var(--sage);
-  }
-
-  .bg-sage {
-    background-color: var(--sage);
-  }
-
-  .border-sage {
-    border-color: var(--sage);
-  }
 }

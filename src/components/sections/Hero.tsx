@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import portrait from "@/assets/portrait.png";
+import portrait from "@/assets/portrait.jpg";
 
 export function Hero() {
   return (

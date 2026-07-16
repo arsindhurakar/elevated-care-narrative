@@ -5,7 +5,7 @@ const journey: Array<{ years: string; role: string; place: string; note?: string
   {
     years: "2026 - Present",
     role: "Lecturer, Department of Obstetrics & Gynaecology",
-    place: "Patan Hospital, Kathmandu",
+    place: "Patan Hospital, Kathmandu, Nepal",
   },
   {
     years: "Nov 2025 - Apr 2026",
@@ -57,7 +57,7 @@ export function Journey() {
       />
       <div className="col-span-12 lg:col-span-7 lg:col-start-6 relative">
         <div className="absolute left-0 top-2 bottom-2 w-px bg-hairline" aria-hidden />
-        <ol className="space-y-16 pl-10">
+        <ol className="space-y-16 pl-[37.5px]">
           {journey.map((j, i) => (
             <li key={j.years} className="relative">
               <span
