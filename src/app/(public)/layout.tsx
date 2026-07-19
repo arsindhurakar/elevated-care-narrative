@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://elevated-care-narrative.vercel.app"),
+  metadataBase: new URL("https://drsonysherpa.com.np"),
 
   title: "Dr. Sony Sherpa - Obstetrician & Gynecologist",
   description:
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dr. Sony Sherpa - Obstetrician & Gynecologist",
     description:
-      "Twenty-three years devoted to high-risk pregnancy, minimally invasive surgery, and respectful maternity care.",
-    url: "https://elevated-care-narrative.vercel.app",
+      "Eight years devoted to high-risk pregnancy, minimally invasive surgery, and respectful maternity care.",
+    url: "https://drsonysherpa.com.np",
     siteName: "Dr. Sony Sherpa",
     images: [
       {
