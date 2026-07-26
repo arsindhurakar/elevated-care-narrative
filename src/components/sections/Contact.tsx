@@ -41,7 +41,9 @@ export function Contact() {
                 key={label}
                 className="grid grid-cols-12 gap-4 items-baseline border-t border-background/10 pt-3"
               >
-                <span className="col-span-4 eyebrow text-background/60">{label}</span>
+                <span className="col-span-4 eyebrow text-background/60">
+                  {label}
+                </span>
                 <a
                   href={href}
                   className="col-span-8 text-background hover:text-sage transition-colors truncate"
@@ -52,10 +54,11 @@ export function Contact() {
             ))}
           </ul>
           <a
-            href="#cv"
+            href="/cv.docx"
+            download="drsonysherpa_cv.docx"
             className="inline-flex items-center justify-between w-full rounded-full border border-background/20 px-6 py-3 text-sm tracking-wide hover:border-sage hover:text-sage transition-colors"
           >
-            Download curriculum vitae (PDF, 412 KB)
+            Download curriculum vitae (DOCX, 9.5 KB)
             <span>↓</span>
           </a>
         </div>
