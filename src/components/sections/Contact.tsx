@@ -57,7 +57,7 @@ export function Contact() {
             download="drsonysherpa_cv.docx"
             className="inline-flex items-center justify-between w-full rounded-full border border-background/20 px-6 py-3 text-sm tracking-wide hover:border-sage hover:text-sage transition-colors"
           >
-            Download curriculum vitae (DOCX, 9.5 KB)
+            Download curriculum vitae (DOCX, 7 KB)
             <span>↓</span>
           </a>
         </div>
