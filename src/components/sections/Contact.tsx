@@ -2,7 +2,6 @@ export function Contact() {
   const links = [
     ["Email", "sony.sherpa55@hotmail.com", "mailto:sony.sherpa55@hotmail.com"],
     ["LinkedIn", "in/sony-sherpa-54733b295", "#"],
-    ["Phone", "+977 981 3783132"],
   ];
   return (
     <section
